@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Webutviklingsprosjekt",
+    "description": "Utvikle en responsiv nettside for lokal bedrift.",
+    "status": "Ikke startet"
+  },
+  {
+    "id": 2,
+    "name": "Mobilapp",
+    "description": "Bygging av en app for sporingssystem.",
+    "status": "Pågående"
+  },
+  {
+    "id": 3,
+    "name": "videospill",
+    "description": "bygger et drømme videospill.",
+    "status": "Pågående"
+  }
+
+]

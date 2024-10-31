@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prosjektportefølje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Prosjektportefølje</h1>
+
+  <section id="project-list">
+    <h2>Alle Prosjekter</h2>
+    <ul id="projects">
+    </ul>
+  </section>
+
+  <section id="new-project">
+    <h2>Opprett Nytt Prosjekt</h2>
+    <form id="project-form">
+      <label for="project-name">Prosjektnavn:</label>
+      <input type="text" id="project-name" name="name" required>
+
+      <label for="project-description">Beskrivelse:</label>
+      <textarea id="project-description" name="description" required></textarea>
+
+      <label for="project-status">Status:</label>
+      <select id="project-status" name="status">
+        <option value="e startet">Ikke startet</option>
+        <option value="Pågående">Pågående</option>
+        <option value="Fullført">Fullført</option>
+      </select>
+
+      <button type="submit">Opprett Prosjekt</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
